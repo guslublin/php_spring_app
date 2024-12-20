@@ -1,0 +1,6 @@
+mvn archetype:generate \
+  -DgroupId=com.example \
+  -DartifactId=php_spring_example \
+  -Dversion=1.0-SNAPSHOT \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false

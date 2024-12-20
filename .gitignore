@@ -1,0 +1,51 @@
+# Ignorar archivos y carpetas de compilación de Maven
+/target/
+*.jar
+*.war
+*.ear
+*.log
+
+# Configuración de Maven
+.mvn/
+!**/src/main/resources/application.properties  # No ignorar el archivo de propiedades
+
+# Archivos generados por IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales del sistema
+*.tmp
+*.bak
+*.~*
+
+# Ignorar configuraciones de OS específicas
+**/node_modules/
+
+# Ignorar Composer
+vendor/
+composer.lock
+
+# Ignorar configuraciones y archivos de PHP temporales
+*.log
+*.cache
+*.env
+.env.local
+
+# Ignorar archivos de sesiones de PHP
+sessions/
+
+# Ignorar configuraciones y archivos para servidores web locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignorar directorios de dependencias en PHP
+composer.phar
